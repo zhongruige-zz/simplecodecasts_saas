@@ -5,9 +5,8 @@
 
 body {
     // Gradient from http://uigradients.com/
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#085078), to(#85D8CE));
-    background: -webkit-linear-gradient(to left, #085078, #85D8CE);
-    background: -moz-linear-gradient(to left, #085078, #85D8CE);
-    background: -o-linear-gradient(to left, #085078, #85D8CE);
-    background: linear-gradient(to left, #085078, #85D8CE);; /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
