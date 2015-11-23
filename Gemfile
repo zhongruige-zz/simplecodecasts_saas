@@ -46,7 +46,7 @@ gem 'devise', '3.4.1'
 # Stripe for handling payments. Commented out turbolinks due to possible conflicts
 gem 'stripe', '1.16.1'
 
-# Use figaro to hide secret keys
+# Use figaro to hide secret keys (esp to github, hiding sensitive info from stripe, for example)
 gem 'figaro', '1.0.0'
 
 # Use ActiveModel has_secure_password
