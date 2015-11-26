@@ -4,6 +4,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   belongs_to :plan # note this is plural because user has to be part of one or the other
+  has_one :profile
   attr_accessor :stripe_card_token # Allows us to use this which we set on the form
   
   def save_with_payment
