@@ -1,4 +1,4 @@
-.avatar-image {
+.user-show-avatar {
     border-radius: 50%;
     -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
@@ -32,4 +32,8 @@
 .well.contact-info {
     background-color: #5bc0de;
     border-color: #46b8da;
+}
+
+.well.white-bg {
+    background-color: white;
 }
